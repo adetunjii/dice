@@ -43,7 +43,7 @@ type HTTPQwatchResponse struct {
 	Data  []any  `json:"data"`
 }
 
-// CaseInsensitiveMux wraps ServeMux and forces REST paths to lowecase
+// CaseInsensitiveMux wraps ServeMux and forces REST paths to lowercase
 type CaseInsensitiveMux struct {
 	mux *http.ServeMux
 }
